@@ -1,0 +1,34 @@
+body {
+	background-color: #eee;
+	border: 0.2em solid black;
+	border-radius: 2em;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 2em;
+}
+
+.wrapper {
+	max-width: 500px;
+	text-align: center;
+	position: relative;
+	margin: 10% auto;
+}
+
+.wrapper:hover {
+	background-color: #eee;
+	cursor: pointer;
+}
+
+.text-area {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
